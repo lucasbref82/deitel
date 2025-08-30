@@ -14,10 +14,11 @@ public class Analise {
             if (valorDigitado < 0 || valorDigitado > 1) {
                 System.out.println("Digite um valor válido entre 0 a 1: ");
             } else {
-                if (valorDigitado == 1)
-                    aprovados += 1;
-                else
-                    reprovados +=1;
+                if (valorDigitado == 1) {
+                    aprovados++;
+                } else {
+                    reprovados++;
+                }
                 totalEstudantes ++;
             }
         }
