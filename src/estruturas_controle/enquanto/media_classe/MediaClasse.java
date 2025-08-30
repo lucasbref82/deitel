@@ -12,6 +12,10 @@ public class MediaClasse {
         while (contadorGrade < quantidadeNotas) {
             System.out.printf("Digite a nota %d: \n", contadorGrade + 1);
             int grade = scanner.nextInt();
+            if(grade < 0 || grade > 100) {
+                System.err.println("Digite um valor entre o intervalo de 0 à 100");
+                continue;
+            }
             total += grade;
             contadorGrade++;
         }

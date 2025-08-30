@@ -1,4 +1,4 @@
-package componentes_graficos;
+package componentes_graficos.dialogo;
 
 import javax.swing.*;
 
