@@ -1,6 +1,6 @@
-package estruturas_controle.if_else.main;
+package estruturas_controle.se_nao.main;
 
-import estruturas_controle.if_else.objetos.Estudante;
+import estruturas_controle.se_nao.objetos.Estudante;
 
 public class EstudanteTeste {
     public static void main(String[] args) {

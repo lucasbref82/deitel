@@ -1,4 +1,4 @@
-package estruturas_controle.if_else.objetos;
+package estruturas_controle.se_nao.objetos;
 
 public final class Estudante {
     private String nome;
